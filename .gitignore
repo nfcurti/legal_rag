@@ -5,3 +5,14 @@
 
 # Data folder – use S3 (AWS_S3_DATA_BUCKET) in production
 data/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Local large artifacts (keep out of EC2/Git)
+*.jsonl
+*.npy
+
+# OS junk
+.DS_Store
