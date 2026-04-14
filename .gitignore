@@ -1,0 +1,7 @@
+# Local env (secrets); data is sourced from S3 when live
+.env
+.env.*
+!.env.example
+
+# Data folder – use S3 (AWS_S3_DATA_BUCKET) in production
+data/
